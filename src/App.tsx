@@ -6,7 +6,7 @@ import { fontStyles } from './utils/fontMappings';
 import { Type } from 'lucide-react';
 
 function App() {
-  const [text, setText] = useState('');
+  const [text, setText] = useState('Preview text');
   const [fontSize, setFontSize] = useState(24);
   const [color, setColor] = useState('#000000');
 
